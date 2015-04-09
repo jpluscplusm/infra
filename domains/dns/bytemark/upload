@@ -1,0 +1,76 @@
+#!/bin/sh
+#
+#  Simple script to upload the entire contents of the data/ subdirectory
+#   to 'upload.ns.bytemark.co.uk' (Bytemark "Content DNS") server.
+#
+#  Documentation for the service is located over at --
+#      http://www.bytemark.co.uk/dnsc
+#
+#  If you have any problems using this script, or comments, please mail:
+#
+#      support [at] support.bytemark.co.uk
+#
+############################################################################
+
+# Ensure we're in the correct location: #304901
+cd `dirname $0`
+
+#
+#  Functions
+#
+upload_data() {
+    #  Users Password
+    RSYNC_USERNAME=foo
+    RSYNC_PASSWORD=bar
+    . $HOME/.bytemark/dns_creds.txt
+    export RSYNC_PASSWORD;                  # required or rsync prompts
+
+    #  Pre-requisites already checked, perform upload...
+    echo -n "Uploading to host : "
+    rsync -r --delete data/ dns@upload.ns.bytemark.co.uk::${RSYNC_USERNAME}/ 
+    echo "completed."
+    exit 0
+}
+
+#
+#  Step #1 - Ensure the upload host is pingable
+#
+if ( ! ping -c 1 upload.ns.bytemark.co.uk 2>/dev/null >/dev/null ); then
+    cat <<EOF
+
+  It seems that you cannot ping the upload host "upload.ns.bytemark.co.uk".
+
+  It could be that this host is down, or that you've got a firewall in use.
+  Or perhaps the ping command just isn't installed! 
+  Please install ping, allow ICMP ECHO packets to be sent and ensure you
+  allow outbound connects (rsync, port 873) too!
+
+EOF
+    # No point continuing as this is a fatal problem.
+    exit
+fi
+
+#
+#  Step #2 - Main Logic
+#   Conduct a pre-requisites check (do we have rsync?) then upload.
+#
+APT_LOCATION=`which apt-get`
+RSYNC_LOCATION=`which rsync`
+SUDO_LOCATION=`which sudo`
+if [ "$RSYNC_LOCATION" != "" ]; then
+    # We've got an rsync binary so go ahead and upload?
+    upload_data
+  else
+    # No rsync detected, try to install, then upload data.
+    echo "Warning: Unable to locate 'rsync' binary, attempting to install..."
+    if [ "$APT_LOCATION" != "" ]; then
+        if [ "$SUDO_LOCATION" != "" ]; then
+            sudo apt-get update -qq && sudo apt-get install rsync -qq --yes --force-yes && upload_data
+          else
+            apt-get update -qq && apt-get install rsync -qq --yes --force-yes && upload_data
+        fi
+      else
+        echo "Fatal: Unable to install 'rsync' as apt-get was not found!"
+        exit 1
+    fi
+fi
