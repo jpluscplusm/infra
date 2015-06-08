@@ -1,4 +1,9 @@
 .jcm.systems::a.ns.bytemark.co.uk:259200
 .jcm.systems::b.ns.bytemark.co.uk:259200
 .jcm.systems::c.ns.bytemark.co.uk:259200
+@jcm.systems::aspmx.l.google.com:10:10800
+@jcm.systems::alt1.aspmx.l.google.com:20:10800
+@jcm.systems::alt2.aspmx.l.google.com:20:10800
+@jcm.systems::aspmx2.googlemail.com:30:10800
+@jcm.systems::aspmx3.googlemail.com:30:10800
 Cjcm.systems:jpluscplusm.com:600
