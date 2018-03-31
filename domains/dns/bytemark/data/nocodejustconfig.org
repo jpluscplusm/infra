@@ -1,4 +1,0 @@
-.nocodejustconfig.org::a.ns.bytemark.co.uk:259200
-.nocodejustconfig.org::b.ns.bytemark.co.uk:259200
-.nocodejustconfig.org::c.ns.bytemark.co.uk:259200
-@nocodejustconfig.org::www.jpluscplusm.com:30:600
