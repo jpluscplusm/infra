@@ -1,7 +1,8 @@
 .jcm-systems.co.uk::a.ns.bytemark.co.uk:259200
 .jcm-systems.co.uk::b.ns.bytemark.co.uk:259200
 .jcm-systems.co.uk::c.ns.bytemark.co.uk:259200
-Cwww.jcm-systems.co.uk:jpluscplusm.com:86400
++jcm-systems.co.uk:80.68.88.177:600
+Cwww.jcm-systems.co.uk:jcm-systems.co.uk:600
 @jcm-systems.co.uk::aspmx.l.google.com:1:3600
 @jcm-systems.co.uk::alt1.aspmx.l.google.com:5:3600
 @jcm-systems.co.uk::alt2.aspmx.l.google.com:5:3600

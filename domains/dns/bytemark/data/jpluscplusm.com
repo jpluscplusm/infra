@@ -9,9 +9,9 @@
 @jpluscplusm.com::aspmx4.googlemail.com:30:10800
 @jpluscplusm.com::aspmx5.googlemail.com:30:10800
 +jpluscplusm.com:80.68.88.177:600
-+test1.jpluscplusm.com:88.98.203.84:10
-Cwww.jpluscplusm.com:jpluscplusm.com:86400
+Cwww.jpluscplusm.com:jpluscplusm.com:60
 Cblog.jpluscplusm.com:jpluscplusm.github.io:600
+Ctest.jpluscplusm.com:jpluscplusm.github.io:600
 'jpluscplusm.com:v=spf1\040include\072aspmx.googlemail.com\040~all:86400
 'google._domainkey.jpluscplusm.com:v=DKIM1;\040k=rsa;\040p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCBpWpLR+3WFxYoviqCeet76B+vEWca0Gse9kf3AhHROwmK8he6I1INsfLs4nBNX1PyzvlZm+bTVnTxLCeKYXCQzBj\057S25ryjWejIHd3mIY1\057HZVo2eWT1YVPOJFZ8u4+MFrg2Z7lUXokQS+IvPU\057+ieD3wgSMQ3j6FU1q+f\0572LTwIDAQAB:86400
 :jpluscplusm.com:28:\040\001\101\310\000\001\116\214\000\000\000\000\000\000\000\020:600
