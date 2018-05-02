@@ -9,7 +9,8 @@
 @jpluscplusm.com::aspmx4.googlemail.com:30:10800
 @jpluscplusm.com::aspmx5.googlemail.com:30:10800
 +jpluscplusm.com:80.68.88.177:600
-Cwww.jpluscplusm.com:jpluscplusm.com:60
+#Cwww.jpluscplusm.com:jpluscplusm.com:60
+Cwww.jpluscplusm.com:jpluscplusm.github.io:60
 Cblog.jpluscplusm.com:jpluscplusm.github.io:600
 Ctest.jpluscplusm.com:jpluscplusm.github.io:600
 'jpluscplusm.com:v=spf1\040include\072aspmx.googlemail.com\040~all:86400
