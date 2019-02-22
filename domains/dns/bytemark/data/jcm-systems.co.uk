@@ -1,6 +1,6 @@
-.jcm-systems.co.uk::a.ns.bytemark.co.uk:259200
-.jcm-systems.co.uk::b.ns.bytemark.co.uk:259200
-.jcm-systems.co.uk::c.ns.bytemark.co.uk:259200
+.jcm-systems.co.uk::a.ns.bytemark.co.uk:3600
+.jcm-systems.co.uk::b.ns.bytemark.co.uk:3600
+.jcm-systems.co.uk::c.ns.bytemark.co.uk:3600
 +jcm-systems.co.uk:35.178.28.1:600
 +www.jcm-systems.co.uk:80.68.88.177:600
 @jcm-systems.co.uk::aspmx.l.google.com:1:3600

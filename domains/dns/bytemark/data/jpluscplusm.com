@@ -1,6 +1,6 @@
-.jpluscplusm.com::a.ns.bytemark.co.uk:259200
-.jpluscplusm.com::b.ns.bytemark.co.uk:259200
-.jpluscplusm.com::c.ns.bytemark.co.uk:259200
+.jpluscplusm.com::a.ns.bytemark.co.uk:3600
+.jpluscplusm.com::b.ns.bytemark.co.uk:3600
+.jpluscplusm.com::c.ns.bytemark.co.uk:3600
 @jpluscplusm.com::aspmx.l.google.com:10:10800
 @jpluscplusm.com::alt1.aspmx.l.google.com:20:10800
 @jpluscplusm.com::alt2.aspmx.l.google.com:20:10800
