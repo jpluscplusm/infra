@@ -6,6 +6,6 @@
 @jcm.systems::alt2.aspmx.l.google.com:20:10800
 @jcm.systems::aspmx2.googlemail.com:30:10800
 @jcm.systems::aspmx3.googlemail.com:30:10800
-+www.jcm.systems:80.68.88.177:600
 +jcm.systems:35.178.28.1:600
+Cwww.jcm.systems:jcm-systems.github.io:600
 'jcm.systems:v=spf1\040redirect=jcm-systems.co.uk:3600
