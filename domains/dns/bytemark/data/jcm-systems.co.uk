@@ -8,5 +8,7 @@
 @jcm-systems.co.uk::alt2.aspmx.l.google.com:5:3600
 @jcm-systems.co.uk::aspmx2.googlemail.com:10:3600
 @jcm-systems.co.uk::aspmx3.googlemail.com:10:3600
-'jcm-systems.co.uk:v=spf1\040include\072_spf.google.com\040include\072_spf.freeagent.com\040~all:3600
 'jcm-systems.co.uk:freeagent-domain-verification=mQ1iv_c4fJm8jOi5KHoM:60
+'jcm-systems.co.uk:v=spf1\040include\072_spf.google.com\040include\072_spf.freeagent.com\040~all:3600
+'20190408150050pm._domainkey.jcm-systems.co.uk:k=rsa;\040p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDUTxEw6n+ZqJoAx3N7vdFhJtorTdPtSQahKaXeXSZ6ysJCLwuo\05757OjTl2gefian\057T62bXYL0FkA0+YV6ODdh558YXzWGl\057F9skN4fPtgWJin+iGX0k+1RJHiMdLSOZxxxNR78CD1fsyTrz4+bCwzTUjkgLvVT1PxD4VLwHZOZhQIDAQAB:300
+Cfreeagent-mailer.jcm-systems.co.uk:pm.mtasv.net:300
