@@ -9,3 +9,5 @@
 +jcm.systems:35.178.28.1:600
 Cwww.jcm.systems:jcm-systems.github.io:600
 'jcm.systems:v=spf1\040redirect=jcm-systems.co.uk:3600
++wwwubalizer.jcm.systems:35.178.28.1:3600
+Cwww.wwwubalizer.jcm.systems:jcm-systems.github.io:3600
