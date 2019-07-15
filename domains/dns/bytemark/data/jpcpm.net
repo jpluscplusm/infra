@@ -1,8 +1,3 @@
 .jpcpm.net::a.ns.bytemark.co.uk:3600
 .jpcpm.net::b.ns.bytemark.co.uk:3600
 .jpcpm.net::c.ns.bytemark.co.uk:3600
-
-&cf.jpcpm.net::ns1-05.azure-dns.com.:::
-&cf.jpcpm.net::ns2-05.azure-dns.net.:::
-&cf.jpcpm.net::ns3-05.azure-dns.org.:::
-&cf.jpcpm.net::ns4-05.azure-dns.info.:::
